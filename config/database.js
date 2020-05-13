@@ -4,4 +4,9 @@ mongoose.connect('mongodb://localhost:27017/subscriptionsDB')
 
 let db = mongoose.connection
 
-db.once('start',()=>{"connected"})
+db.once('open',()=>{console.log("connected")})
+
+
+
+
+

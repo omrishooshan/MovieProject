@@ -8,4 +8,4 @@ let MembersSchema = new Schema({
    City: String
 })
 
-module.exports = mogoose.model('Members',MembersSchema)
+module.exports = mongoose.model('Members',MembersSchema)
